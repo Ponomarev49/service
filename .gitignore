@@ -1,0 +1,81 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.db
+*.sqlite3
+
+# Виртуальные окружения
+venv/
+env/
+.venv/
+ENV/
+.env/
+
+# Логи и временные файлы
+*.log
+*.pid
+*.seed
+*.cover
+*.orig
+*.rej
+*.bak
+*.swp
+*.swo
+*.tmp
+*.DS_Store
+*.idea/
+*.vscode/
+
+# Тесты и покрытия
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+htmlcov/
+.pytest_cache/
+.tox/
+.mypy_cache/
+.dmypy.json
+
+# === Docker ===
+# Игнорируем данные PostgreSQL
+postgres_data/
+pg_data/
+data/
+
+# Игнорируем артефакты сборки
+*.tar
+*.gz
+*.zip
+*.egg-info/
+dist/
+build/
+
+# === FastAPI / Uvicorn ===
+# Кэш и артефакты, создаваемые при запуске
+*.pid
+*.sock
+
+# === OS files ===
+Thumbs.db
+.DS_Store
+ehthumbs.db
+Icon?
+
+# === PyCharm ===
+.idea/
+*.iml
+
+# === Docker Compose Overrides (локальные настройки) ===
+docker-compose.override.yml
+docker-compose.dev.yml
+
+# === Дополнительно ===
+# Личные конфиги
+.env.local
+.env.dev
+.env.prod

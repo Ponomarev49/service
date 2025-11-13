@@ -1,0 +1,10 @@
+python-jose
+passlib
+python-slugify
+sqlalchemy
+pydantic
+fastapi
+uvicorn[standard]
+python-dotenv
+psycopg2-binary
+pydantic[email]
